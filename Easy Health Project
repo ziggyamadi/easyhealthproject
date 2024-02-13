@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROUP 2 PROJECT WORK</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="nav navbar-nav">
+                <a class="nav-item nav-link active" href="#" aria-current="page">Home <span class="visually-hidden"></span></a>
+                <a class="nav-item nav-link" href="#about">About Us</a>
+                <a class="nav-item nav-link" href="#services">Our Services</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="container">
+            <div class="jumbotron text-center row mt-4 mb-4">
+                <div class="col-md-6 mt-4">
+                    <h1>Welcome to Easy Health</h1>
+                    <h3>Your Health is Our Priority</h3>
+                </div>
+                <div class="col-md-6">
+                    <img src="Easyhealth logo.jpg" width="100" class="img-fluid rounded">
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="p-3 mb-4 bg-light rounded-1">
+                <div class="container-fluid py-3">
+                    <h1 class="display-8 fw-bold">About Us</h1>
+                    <p class="fs-9">
+                        We are one stop health shop for all product and services that promote healthy life.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h2>Our Services</h2>
+                            <p>Sale of Healthy Products and Services</p>
+                            <p>Online Consultation</p>
+                            <p>Online Training on Lifestyle</p>
+                            <p>Home Delivery</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <button class="btn btn-dark btn-sm" type="button">
+                        EH Services
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="row p-3">
+                <h1 class="display-8 fw-bold">Our Products</h1>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Product1.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title">BP Management</h4>
+                            <p class="card-text">Supplements for high blood pressure.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 mb-4">
+                   <div class="card">
+                        <img class="card-img-top" src="Product2.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title">Shake off Body Fat</h4>
+                            <p class="card-text">Supplements for flat Tommy.</p>
+                        </div>
+                   </div>   
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="p-3 mb-4 bg-light rounded-3 text-center">
+                <h1 class="display-8 fw-bold">Contact Us</h1>
+                <div class="container-fluid py-5">
+                    <div class="row">
+
+                        <div class="col-md-2 mb-4">
+                            <a href="https://www.facebook.com">
+                                <button
+                                    type="button"
+                                    class="btn btn-dark btn-lg"
+                                >
+                                    Facebook
+                                </button>
+                                
+                            </a>
+                        </div>
+
+                        <div class="col-md-2 mb-4">
+                            <a href="http://www.linkedin.com">
+                                <button
+                                    type="button"
+                                    class="btn btn-dark btn-lg"
+                                >
+                                    LinkedIn
+                                </button>
+                                
+                            </a>
+                        </div>
+
+                        <div class="col-md-2 mb-4">
+                            <a href="https://wa.me/2348037042968">
+                                <button
+                                    type="button"
+                                    class="btn btn-dark btn-lg"
+                                >
+                                    WhatsApp
+                                </button>
+                                
+                            </a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main> 
+</body>
+</html>
